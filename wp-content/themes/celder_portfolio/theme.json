@@ -1,6 +1,93 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"background": false,
+			"link": false,
+			"text": false,
+			"custom": false,
+			"customDuotone": false,
+			"customGradient": false,
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#000000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#736635",
+					"name": "Gold",
+					"slug": "gold"
+				}
+			]
+		},
+		"dimensions": {
+			"minHeight": true
+		},
+		"layout": {
+			"contentSize": "650px",
+			"wideSize": "1200px"
+		},
+		"blocks":{
+			"core/image": {
+				"lightbox": {
+					"enabled": true
+				}
+			}
+		},
+		"position": {
+			"sticky": true
+		},
+		"spacing": {
+			"blockGap": null,
+			"customSpacingSize": false
+		},
+		"typography": {
+			"fluid": true
+		}
+	},
+	"styles": {
+		"color": {
+			"text": "#000000",
+			"background": "#ffffff"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"text": "#ffffff",
+					"background": "#000000"
+				},
+				":hover": {
+					"color": {
+						"text": "#000000",
+						"background": "#ffffff"
+					}
+				}
+			},
+			"heading": {
+				"fontFamily"
+			}
+		},
+		"blocks": {
+			"portfolio/alternate": {
+				"color": {
+					"text": "#ffffff",
+					"background": "#000000"
+				}
+			}
+		}
+	},
+	"customTemplates": {},
 	"templateParts": [
 		{
 			"area": "header",

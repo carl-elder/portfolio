@@ -10,13 +10,13 @@ Text Domain: portfolio
 */
 @font-face {
     font-family: 'ArgentBold', serif;
-    src: local("argent-cf"), url("/inc/fonts/argentcf-bold.otf");
+    src: local("argent-cf"), url("/portfolio/wp-content/themes/celder_portfolio/assets/fonts/argentcf-bold.otf");
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'ArgentRegular', serif;
-    src: local("argent-cf"), url("/inc/fonts/argentcf-regular.otf");
+    src: local("argent-cf"), url("/portfolio/wp-content/themes/celder_portfolio/assets/fonts/argentcf-regular.otf");
     font-weight: 400;
 }
 
