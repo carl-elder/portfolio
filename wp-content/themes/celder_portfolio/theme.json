@@ -73,9 +73,6 @@
 						"background": "#ffffff"
 					}
 				}
-			},
-			"heading": {
-				"fontFamily"
 			}
 		},
 		"blocks": {
@@ -87,7 +84,15 @@
 			}
 		}
 	},
-	"customTemplates": {},
+	"customTemplates": [
+		{
+			"name": "home",
+			"title": "Home",
+			"postTypes": [
+				"page"
+			]
+		}
+	],
 	"templateParts": [
 		{
 			"area": "header",
